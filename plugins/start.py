@@ -9,11 +9,14 @@ async def start(client,message):
 	await message.reply_text(text =f"""
 	Hello {message.from_user.first_name }
 	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filenameto rename it__
+	**Document Or Video** and enter new filenameto rename it
+        IF U WANT TO ADD YOUR OWN THUMBNAIL JUST SEND /addthumb
+         AND TO DELETE THUMBNAIL SEND /delthumnb
+         made with  ❤️ by @AX_BOTZ__
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+	 [[ InlineKeyboardButton("🎃 MORE BOTS 🎃 " ,url="https://t.me/AX_BOTZ") ], 
+	[InlineKeyboardButton("SUPPORT GROUP  ", url="https://t.me/ASTROFLIX") ]  ]))
 
 
 
