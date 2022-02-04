@@ -10,8 +10,8 @@ async def start(client,message):
 	Hello {message.from_user.first_name }
 	__I am file renamer bot, Please sent any telegram 
 	**Document Or Video** and enter new filenameto rename it
-        IF U WANT TO ADD YOUR OWN THUMBNAIL JUST SEND /addthumb
-         AND TO DELETE THUMBNAIL SEND /delthumnb
+ IF U WANT TO ADD YOUR OWN THUMBNAIL JUST SEND ANY IMAGE TO ME 
+AND TO DELETE THUMBNAIL /delthumb
          made with  ❤️ by @AX_BOTZ__
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
